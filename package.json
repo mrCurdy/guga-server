@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cjs": "^0.0.11",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jwt-simple": "^0.5.6",
+    "multer": "^1.4.5-lts.1",
+    "sequelize": "^6.37.5",
+    "server": "file:",
+    "sqlite3": "^5.1.7"
+  }
+}
